@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="autor"content= "Belen  Molina">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Tareas</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>Lista de Tareas</h1>
+    <div class="container text-center"> 
+<img src="/img/tareas img.jfif" alt="">
+
+    </div>
+
+    <div class="mb-3">
+        <input type="text" class="form-control" id="tareaInput" placeholder="Ingrese una tarea">
+    </div>
+
+    <button class="btn btn-primary" onclick="agregarTarea()">Agregar Tarea</button>
+
+    <ul class="list-group mt-3" id="listaTareas">
+        <!-- Aquí se agregarán dinámicamente las tareas -->
+    </ul>
+</div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+
+<script src="/script.js"></script>
+
+</body>
+</html>
